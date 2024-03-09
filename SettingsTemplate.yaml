@@ -1,0 +1,15 @@
+body:
+  - type: dropdown
+    attributes:
+      name: zones
+      label: "Time zones"
+      defaultValue: "ET"
+      options:
+        - ET
+        - CET
+  - type: checkbox
+    attributes:
+      name: show_offset
+      label: "Show Offset"
+      defaultValue: "true"
+      description: Show the offset in hours from your local time zone

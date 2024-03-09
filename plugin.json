@@ -1,0 +1,12 @@
+{
+  "ID": "42DE0794627A48B2847E6FDF29DD5561",
+  "ActionKeyword": "tz",
+  "Name": "TimeZoner",
+  "Description": "Retrieve local time and time zone information on selected locations.",
+  "Author": "dlundgaard",
+  "Version": "0.1.0",
+  "Language": "python",
+  "Website": "https://github.com/dlundgaard/TimeZoner",
+  "IcoPath": "assets/icon.png",
+  "ExecuteFileName": "plugin.py"
+}
