@@ -8,5 +8,5 @@
   "Language": "python",
   "Website": "https://github.com/dlundgaard/TimeZoner",
   "IcoPath": "assets/icon.png",
-  "ExecuteFileName": "plugin.py"
+  "ExecuteFileName": "entrypoint.py"
 }

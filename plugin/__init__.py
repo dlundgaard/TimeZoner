@@ -1,17 +1,14 @@
-import sys
 import pathlib
+import sys
 
-sys.path.append(str(pathlib.Path()))
-sys.path.append(str(pathlib.Path().joinpath("lib")))
-sys.path.append(str(pathlib.Path().joinpath("plugin")))
+# pip.exe install -r ./requirements.txt -t ./lib
+sys.path.append(str(pathlib.Path(__file__).parent.parent.joinpath("lib")))
 
 import flowlauncher
 import requests
 import datetime
 import logging
 import json
-
-# pip.exe install -r ./requirements.txt -t ./lib
 
 logging.basicConfig(
     level=logging.INFO,
